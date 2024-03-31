@@ -1,0 +1,44 @@
+main{
+    background: url(./banner.gif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+main img{
+    width: 450px;
+}
+
+.banner-home{
+    width: 60%;
+    height: 95vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.txt-banner{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 2rem 0;
+    flex-direction: column;
+}
+
+.txt-banner h1{
+    font-size: 45px;
+}
+
+.txt-banner p{
+    font-size: 30px;
+}
+
+.buttons-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

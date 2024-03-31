@@ -1,0 +1,36 @@
+:root{
+    --main-txt-font: "Roboto", sans-serif;
+    --primary-txt-font: "Press Start 2P", system-ui;
+    
+    --bg-color:#2f3e46;
+    --primary-color:#84a98c;
+    --secondary-color:#52796f;
+    --main-txt-color:#cad2c5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: var(--primary-txt-font);  
+    background-color: var(--bg-main-color);
+    transition: all ease .1s;
+}
+
+body{
+    /* background-color: var(--bg-color); */
+    color: var(--main-txt-color);
+    width: 100%;
+}
+
+
+/* FIX THIS*/
+/* Margin to legible text    */
+h1, h2, h3, h4, p{
+    margin: 1rem 0 ;
+}
