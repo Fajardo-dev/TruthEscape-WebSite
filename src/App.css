@@ -2,10 +2,10 @@
     --main-txt-font: "Roboto", sans-serif;
     --primary-txt-font: "Press Start 2P", system-ui;
     
-    --bg-color:#2f3e46;
-    --primary-color:#84a98c;
-    --secondary-color:#52796f;
-    --main-txt-color:#cad2c5;
+    --bg-color:#2f4641;
+    --bg-dark-color:#273a36;
+    --primary-color:#52796f;
+    --main-txt-color:#edf3ea;
 }
 
 *{
@@ -23,7 +23,6 @@
 }
 
 body{
-    /* background-color: var(--bg-color); */
     color: var(--main-txt-color);
     width: 100%;
 }
@@ -31,6 +30,13 @@ body{
 
 /* FIX THIS*/
 /* Margin to legible text    */
-h1, h2, h3, h4, p{
+h1, h2, h3, h4, p, a{
     margin: 1rem 0 ;
+    color: var(--main-txt-color);
+}
+
+html{
+    scrollbar-color: var(--primary-color) var(--bg-color);
+    scrollbar-width: thin;
+    background-color: #000;
 }

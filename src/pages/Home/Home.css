@@ -2,6 +2,7 @@ main{
     background: url(./banner.gif);
     background-repeat: no-repeat;
     background-size: cover; 
+    border-bottom: 8px dashed var(--primary-color);
 }
 
 main img{
@@ -10,7 +11,7 @@ main img{
 
 .banner-home{
     width: 60%;
-    height: 95vh;
+    height: 97vh;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -24,17 +25,17 @@ main img{
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--main-txt-color);
     margin: 2rem 0;
     flex-direction: column;
 }
 
 .txt-banner h1{
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .txt-banner p{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .buttons-banner{

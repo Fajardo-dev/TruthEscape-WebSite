@@ -7,7 +7,7 @@ function Home() {
       <section className="banner-home">
         <article className="txt-banner">
           <h1>Truth Escape</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>The hidden truth awaits you.</p>
         </article>
         <article className="buttons-banner">
           <Button title="DONATE" />

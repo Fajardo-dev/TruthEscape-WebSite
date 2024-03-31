@@ -1,18 +1,18 @@
 .default-btn{
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     padding: 0.5rem 3rem;
     color: #fff;
     cursor: pointer;
-    background-color: #202020;
-    outline: 5px solid #404240;
+    background-color: var(--bg-color);
+    outline: 5px solid var(--primary-color);
     border: none;
 }   
 
 .default-btn:hover{
-    color: #afafaf;
+    color: var(--main-txt-color);
 }
 
 .default-btn:active {
     color: #fff;
-    background-color: #404240;
+    background-color: var(--bg-dark-color);
 }
