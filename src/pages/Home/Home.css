@@ -1,5 +1,5 @@
 main{
-    background: url(./banner.gif);
+    background: url(/banner.gif);
     background-repeat: no-repeat;
     background-size: cover; 
     border-bottom: 8px dashed var(--primary-color);
