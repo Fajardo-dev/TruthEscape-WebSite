@@ -1,5 +1,6 @@
 import "./Home.css";
 import Button from "../../components/Button/Button";
+import PopUp from "../../components/PopUp/PopUp";
 
 function Home() {
   return (
@@ -10,9 +11,9 @@ function Home() {
           <p>The hidden truth awaits you.</p>
         </article>
         <article className="buttons-banner">
-          <Button title="DONATE" />
-          <Button title="CODE" />
-          <Button title="DOWNLOAD" />
+          <PopUp title="DONATE" />
+          <PopUp title="CODE" />
+          <PopUp title="DOWNLOAD" />
         </article>
       </section>
     </main>

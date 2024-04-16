@@ -7,13 +7,19 @@ function Footer() {
         <article>
           <h1>Developed by</h1>
           <p>
-            <a href="https://johnfajardodev.netlify.app/">JF - JohnFajardo</a>
+            <a href="https://johnfajardodev.netlify.app/" target="_blank">
+              JF - JohnFajardo
+            </a>
           </p>
           <p>
-            <a href="">Portfolio</a>
+            <a href="https://johnfajardodev.netlify.app/" target="_blank">
+              Portfolio
+            </a>
           </p>
           <p>
-            <a href="">Github</a>
+            <a href="http://github.com/Fajardo-dev" target="_blank">
+              Github
+            </a>
           </p>
         </article>
         <article>

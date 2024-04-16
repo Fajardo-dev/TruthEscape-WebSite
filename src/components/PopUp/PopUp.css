@@ -1,0 +1,55 @@
+.default-btn{
+    margin: 1rem;
+    padding: 1rem 3rem;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    outline: 5px solid var(--primary-color);
+    border: none;
+}   
+
+.default-btn:hover{
+    color: var(--main-txt-color);
+}
+
+.default-btn:active {
+    color: #fff;
+    background-color: var(--bg-dark-color);
+}
+
+.modal {
+    font-size: 17px;
+    background-color: var(--bg-color);
+    padding: 2rem;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 20px 5px;
+    color: var(--main-txt-color);
+}
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
