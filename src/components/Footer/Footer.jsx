@@ -1,11 +1,14 @@
+import { useTranslation } from "react-i18next";
 import "./Footer.css";
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer>
       <section>
         <article>
-          <h1>Developed by</h1>
+          <h1>{t("first_title_footer")}</h1>
           <p>
             <a href="https://johnfajardodev.netlify.app/" target="_blank">
               JF - JohnFajardo
@@ -23,7 +26,7 @@ function Footer() {
           </p>
         </article>
         <article>
-          <h1>Truth Escape</h1>
+          <h1>{t("second_title_footer")}</h1>
           <p>
             <a href="">Link 1</a>
           </p>
